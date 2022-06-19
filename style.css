@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+.header{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(95, 244, 95); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.header_heading{
+    font-size: 70 px;
+    font-family: cursive;
+    color: blue;
+}
+
+.header_nav{
+    width: 50%;
+    font-size: 30 px;
+    font-family: cursive;
+    color: white;
+}
+
+.header_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    color: green;
+}
+
+.header_menu_li:nth-child(even){
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.profile.photo{
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+
+.main_profile_info_block{
+    background-image: url("https://www.vasen.org/wp-content/uploads/welche-blumen-jahreszeit1-scaled.jpeg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile_info{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_username{
+    font-size: 30px;
+    font-family: cursive;
+    color: blue;
+    margin: o;
+  
+  }
+
+.profile_description{
+    width: 20%;
+    height: 20%;
+    font-size: 15px;
+    font-family: cursive;
+    color: red;
+    margin: o;
+}
+.profile_hr{
+    color: black;
+}
